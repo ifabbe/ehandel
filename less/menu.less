@@ -1,0 +1,22 @@
+.menu {
+  background-color: @pink;
+  padding: 1rem;
+  display: none;
+  @media @min768 {
+    display: block;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+.menu__list {
+  display: flex;
+}
+
+.menu__item:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.menu__link {
+  color: white;
+}

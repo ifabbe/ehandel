@@ -1,0 +1,25 @@
+.product-images {
+  @media @min768 {
+    order: -1;
+  }
+}
+
+.product-images__image--big {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.product-images__thumbnails {
+  display: flex;
+}
+
+.product-images__figure--small:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.product-images__thumbnail {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+}
